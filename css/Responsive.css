@@ -369,7 +369,7 @@
 /* 
 /* IPAD */
 
-media(max-Height: 1024px) and (max-Width: 768px) {
+@media(max-Height: 1024px) and (max-Width: 768px) {
     #nav {
         margin-left: 12%;
         margin-top: 11%;
