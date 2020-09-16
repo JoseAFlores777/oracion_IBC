@@ -214,8 +214,18 @@
            background-color: #c5a540;
        }
        
+       #botones a:visited {
+           transition: all;
+           background-color: #c7c6cd;
+       }
+       
        a:active {
            transition: all;
            color: #c5a540;
+       }
+       
+       a:visited {
+           transition: all;
+           background-color: #c7c6cd;
        }
        /* ::::::::::::FIN EFECTO DE LOS BOTONES::::::::::::::: */
