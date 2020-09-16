@@ -31,7 +31,7 @@ a:hover {
 }
 
 #botones {
-    padding: 160px 0px 20px 0px;
+    padding: 121px 0px 20px 0px;
     /* margin-left: 11%; */
     text-align: center;
 }
@@ -108,8 +108,8 @@ a:hover {
 #nav {
     position: absolute;
     z-index: 2;
-    margin-left: 10%;
-    margin-top: 12%;
+    margin-left: 3%;
+    margin-top: 5%;
     /* background-color: yellow; */
 }
 
@@ -123,11 +123,6 @@ a:hover {
 }
 
 #fondo:hover {
-    margin: 0px auto;
-    position: relative;
-    width: 100%;
-    background-size: cover;
-    display: block;
     filter: blur(10px);
     -webkit-filter: blur(4px);
     transition: all 1000ms;
@@ -178,7 +173,7 @@ a:hover {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     z-index: 1;
-    padding-left: 42%;
+    padding-left: 43%;
 }
 
 @keyframes flecha_mov {
@@ -208,34 +203,4 @@ a:hover {
     margin-bottom: auto;
     margin-top: auto;
     text-align: center;
-}
-
-
-/* RESPONSIVE */
-
-@media (max-width:667px) {
-    .logo {
-        width: 89px;
-    }
-    #nav {
-        margin-left: 7%;
-        margin-top: 17%;
-    }
-    #clic {}
-    #texto>p {
-        margin: -13px;
-        color: white;
-        text-shadow: 0px 0px 8px #262626;
-    }
-    .txtOne {
-        font-size: 23px;
-    }
-    .txtTwo {
-        font-weight: bold;
-        font-size: 50px;
-        font-style: inherit;
-    }
-    .txtThree {
-        font-size: 50px;
-    }
 }
