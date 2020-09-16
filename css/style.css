@@ -125,12 +125,11 @@
            display: block;
            transition: all 1000ms;
        }
-       
-       #fondo:hover {
+       /* #fondo:hover {
            filter: blur(10px);
-           -webkit-filter: blur(4px);
+           -webkit-filter: blur(2px);
            transition: all 1000ms;
-       }
+       } */
        
        #texto>p {
            margin: 5px;

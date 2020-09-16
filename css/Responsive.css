@@ -366,9 +366,10 @@
 /* COMPATIBILIDAD CON TELEFONOS */
 
 
+/* 
 /* IPAD */
 
-@media(max-Height: 1024px) and (max-Width: 768px) {
+media(max-Height: 1024px) and (max-Width: 768px) {
     #nav {
         margin-left: 12%;
         margin-top: 11%;
@@ -393,6 +394,32 @@
     #division {
         background: #242a2a;
         height: 456px !important;
+        display: block;
+    }
+}
+
+@media(max-Height: 896px) and (max-width: 414px) {
+    #nav {
+        margin-left: 7%;
+        margin-top: 8%;
+        /* background-color: yellow; */
+    }
+    #division {
+        background: #242a2a;
+        height: 607px !important;
+        display: block;
+    }
+}
+
+@media(max-Height: 812px) and (max-width: 375px) {
+    #nav {
+        margin-left: 13%;
+        margin-top: 8%;
+        /* background-color: yellow; */
+    }
+    #division {
+        background: #242a2a;
+        height: 607px !important;
         display: block;
     }
 }
