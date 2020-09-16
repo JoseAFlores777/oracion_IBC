@@ -1,379 +1,414 @@
-    @media(max-width: 1299px) {
-        #nav {
-            position: absolute;
-            z-index: 2;
-            margin-left: 3%;
-            margin-top: 4%;
-            /* background-color: yellow; */
-        }
+@media(max-width: 1299px) {
+    #nav {
+        position: absolute;
+        z-index: 2;
+        margin-left: 3%;
+        margin-top: 4%;
+        /* background-color: yellow; */
     }
-    
-    @media(max-width: 1269px) {
-        #nav {
-            position: absolute;
-            z-index: 2;
-            margin-left: 3%;
-            margin-top: 3%;
-            /* background-color: yellow; */
-        }
-        .Redes {
-            font-size: 38px;
-            /* margin: 8px; */
-            /* padding: 18px; */
-            /* text-align: center; */
-            margin-top: 0%;
-        }
+}
+
+@media(max-width: 1269px) {
+    #nav {
+        position: absolute;
+        z-index: 2;
+        margin-left: 3%;
+        margin-top: 3%;
+        /* background-color: yellow; */
     }
-    
-    @media(max-width: 1207px) {
-        #nav {
-            position: absolute;
-            z-index: 2;
-            margin-left: 1%;
-            margin-top: 1%;
-            /* background-color: yellow; */
-        }
+    .Redes {
+        font-size: 38px;
+        /* margin: 8px; */
+        /* padding: 18px; */
+        /* text-align: center; */
+        margin-top: 0%;
     }
-    
-    @media(max-width: 1145px) {
-        #nav {
-            position: absolute;
-            z-index: 2;
-            margin-left: 1%;
-            margin-top: 1%;
-            /* background-color: yellow; */
-        }
+}
+
+@media(max-width: 1207px) {
+    #nav {
+        position: absolute;
+        z-index: 2;
+        margin-left: 1%;
+        margin-top: 1%;
+        /* background-color: yellow; */
     }
-    
-    @media(max-width: 1134px) {
-        #nav {
-            margin-left: 4%;
-            margin-top: 11%;
-            /* background-color: yellow; */
-        }
-        .txtOne {
-            font-size: 40px;
-            /* padding-bottom: 0px; */
-        }
-        .txtTwo {
-            font-weight: bold;
-            font-size: 95px;
-            font-style: inherit;
-        }
-        .txtThree {
-            font-weight: bold;
-            font-size: 55px;
-        }
-        #header {
-            height: 76px;
-        }
-        #division {
-            background: #242a2a;
-            height: 168px;
-            display: block;
-        }
-        #flecha {
-            padding-left: 44%;
-        }
+}
+
+@media(max-width: 1145px) {
+    #nav {
+        position: absolute;
+        z-index: 2;
+        margin-left: 1%;
+        margin-top: 1%;
+        /* background-color: yellow; */
     }
-    
-    @media(max-width: 1196px) {
-        #division {
-            background: #242a2a;
-            height: 168px;
-            display: block;
-        }
+}
+
+@media(max-width: 1134px) {
+    #nav {
+        margin-left: 4%;
+        margin-top: 11%;
+        /* background-color: yellow; */
     }
-    
-    @media(max-width: 1094px) {
-        #division {
-            background: #242a2a;
-            height: 178px;
-            display: block;
-        }
-        #flecha {
-            padding-left: 44%;
-        }
+    .txtOne {
+        font-size: 40px;
+        /* padding-bottom: 0px; */
     }
-    
-    @media(max-width: 1078px) {
-        #nav {
-            margin-left: 3%;
-            margin-top: 8%;
-            /* background-color: yellow; */
-        }
+    .txtTwo {
+        font-weight: bold;
+        font-size: 95px;
+        font-style: inherit;
     }
-    
-    @media(max-width: 912px) {
-        #division {
-            background: #242a2a;
-            height: 320px;
-            display: block;
-        }
-        #flecha {
-            padding-left: 44%;
-        }
+    .txtThree {
+        font-weight: bold;
+        font-size: 55px;
     }
-    
-    @media(max-width: 706px) {
-        #nav {
-            margin-left: 9%;
-            margin-top: 6%;
-            /* background-color: yellow; */
-        }
-        #division {
-            background: #242a2a;
-            height: 320px;
-            display: block;
-        }
-        #flecha {
-            padding-left: 44%;
-        }
+    #header {
+        height: 76px;
     }
-    
-    @media(max-width: 640px) {
-        .logo {
-            width: 104px;
-        }
-        #nav {
-            margin-left: 5%;
-            margin-top: 4%;
-            /* background-color: yellow; */
-        }
-        #division {
-            background: #242a2a;
-            height: 445px;
-            display: block;
-        }
-        #flecha {
-            padding-left: 44%;
-        }
-        #botones a {
-            display: block;
-            margin: 24px;
-            margin-left: 95px;
-            margin-right: 95px;
-            margin-top: -3px;
-        }
+    #division {
+        background: #242a2a;
+        height: 168px;
+        display: block;
     }
-    
-    @media(max-width: 612px) {
-        #nav {
-            margin-left: 12%;
-            margin-top: 8%;
-            /* background-color: yellow; */
-        }
-        #division {
-            background: #242a2a;
-            height: 357px;
-            display: block;
-        }
-        #flecha {
-            padding-left: 44%;
-        }
-        #botones a {
-            display: block;
-            margin: 24px;
-            margin-left: 95px;
-            margin-right: 95px;
-            margin-top: -3px;
-        }
-        .txtOne {
-            font-size: 123%;
-            /* padding-bottom: 0px; */
-        }
-        .txtTwo {
-            font-size: 462%;
-            /* padding-bottom: 0px; */
-        }
-        .txtThree {
-            font-size: 175%;
-            /* padding-bottom: 0px; */
-        }
-        .txtfour {
-            font-size: 123%;
-            /* padding-bottom: 0px; */
-        }
+    #flecha {
+        padding-left: 44%;
     }
-    
-    @media(max-width: 540px) {
-        #nav {
-            margin-left: 12%;
-            margin-top: 8%;
-            /* background-color: yellow; */
-        }
-        #division {
-            background: #242a2a;
-            height: 384px;
-            display: block;
-        }
+}
+
+@media(max-width: 1196px) {
+    #division {
+        background: #242a2a;
+        height: 168px;
+        display: block;
     }
-    
-    @media(max-width: 510px) {
-        #nav {
-            margin-left: 4%;
-            margin-top: 8%;
-            /* background-color: yellow; */
-        }
-        #division {
-            background: #242a2a;
-            height: 392px;
-            display: block;
-        }
+}
+
+@media(max-width: 1094px) {
+    #division {
+        background: #242a2a;
+        height: 178px;
+        display: block;
     }
-    
-    @media(max-width: 472px) {
-        #nav {
-            margin-left: 13%;
-            margin-top: 8%;
-            /* background-color: yellow; */
-        }
-        #division {
-            background: #242a2a;
-            height: 392px;
-            display: block;
-        }
-        #flecha {
-            padding-left: 42%;
-        }
-        #botones a {
-            margin-left: 62px;
-            margin-right: 62px;
-        }
-        .txtOne {
-            font-size: 96%;
-            /* padding-bottom: 0px; */
-        }
-        .txtTwo {
-            font-size: 366%;
-            /* padding-bottom: 0px; */
-        }
-        .txtThree {
-            font-size: 159%;
-            /* padding-bottom: 0px; */
-        }
-        .txtfour {
-            font-size: 123%;
-            /* padding-bottom: 0px; */
-        }
+    #flecha {
+        padding-left: 44%;
     }
-    
-    @media(max-width: 428px) {
-        #nav {
-            margin-left: 7%;
-            margin-top: 8%;
-            /* background-color: yellow; */
-        }
+}
+
+@media(max-width: 1078px) {
+    #nav {
+        margin-left: 3%;
+        margin-top: 8%;
+        /* background-color: yellow; */
     }
-    
-    @media(max-width: 382px) {
-        .logo {
-            width: 67px;
-        }
-        #nav {
-            margin-left: 13%;
-            margin-top: 8%;
-            /* background-color: yellow; */
-        }
-        #division {
-            background: #242a2a;
-            height: 392px;
-            display: block;
-        }
-        #flecha {
-            padding-left: 42%;
-        }
-        #botones a {
-            margin-left: -10%;
-            margin-right: -10%;
-            /* transition: all; */
-        }
-        .txtOne {
-            font-size: 96%;
-            /* padding-bottom: 0px; */
-        }
-        .txtTwo {
-            font-size: 276%;
-            /* padding-bottom: 0px; */
-        }
-        .txtThree {
-            font-size: 159%;
-            /* padding-bottom: 0px; */
-        }
-        .txtfour {
-            font-size: 123%;
-            /* padding-bottom: 0px; */
-        }
+}
+
+@media(max-width: 912px) {
+    #division {
+        background: #242a2a;
+        height: 320px;
+        display: block;
     }
-    
-    @media(max-width: 362px) {
-        #nav {
-            margin-left: 6%;
-            margin-top: 8%;
-            /* background-color: yellow; */
-        }
-        #division {
-            background: #242a2a;
-            height: 424px;
-            display: block;
-        }
-        #flecha {
-            padding-left: 42%;
-        }
-        #botones a {
-            margin-left: 8%;
-            margin-right: 8%;
-        }
-        .txtOne {
-            font-size: 96%;
-            /* padding-bottom: 0px; */
-        }
-        .txtTwo {
-            font-size: 276%;
-            /* padding-bottom: 0px; */
-        }
-        .txtThree {
-            font-size: 159%;
-            /* padding-bottom: 0px; */
-        }
-        .txtfour {
-            font-size: 123%;
-            /* padding-bottom: 0px; */
-        }
+    #flecha {
+        padding-left: 44%;
     }
-    
-    @media(max-width: 290px) {
-        #nav {
-            margin-left: 8%;
-            margin-top: 5%;
-            /* background-color: yellow; */
-        }
-        #division {
-            background: #242a2a;
-            height: 424px;
-            display: block;
-        }
-        #flecha {
-            padding-left: 38%;
-        }
-        #botones a {
-            margin-left: 8%;
-            margin-right: 8%;
-        }
-        .txtOne {
-            font-size: 85%;
-            /* padding-bottom: 0px; */
-        }
-        .txtTwo {
-            font-size: 244%;
-            /* padding-bottom: 0px; */
-        }
-        .txtThree {
-            font-size: 139%;
-            /* padding-bottom: 0px; */
-        }
-        .txtfour {
-            font-size: 106%;
-            /* padding-bottom: 0px; */
-        }
+}
+
+@media(max-width: 640px) {
+    .logo {
+        width: 104px;
     }
+    #nav {
+        margin-left: 5%;
+        margin-top: 4%;
+        /* background-color: yellow; */
+    }
+    #division {
+        background: #242a2a;
+        height: 445px;
+        display: block;
+    }
+    #flecha {
+        padding-left: 44%;
+    }
+    #botones a {
+        display: block;
+        margin: 24px;
+        margin-left: 95px;
+        margin-right: 95px;
+        margin-top: -3px;
+    }
+}
+
+@media(max-width: 612px) {
+    #nav {
+        margin-left: 12%;
+        margin-top: 8%;
+        /* background-color: yellow; */
+    }
+    #division {
+        background: #242a2a;
+        height: 357px;
+        display: block;
+    }
+    #flecha {
+        padding-left: 44%;
+    }
+    #botones a {
+        display: block;
+        margin: 24px;
+        margin-left: 95px;
+        margin-right: 95px;
+        margin-top: -3px;
+    }
+    .txtOne {
+        font-size: 123%;
+        /* padding-bottom: 0px; */
+    }
+    .txtTwo {
+        font-size: 462%;
+        /* padding-bottom: 0px; */
+    }
+    .txtThree {
+        font-size: 175%;
+        /* padding-bottom: 0px; */
+    }
+    .txtfour {
+        font-size: 123%;
+        /* padding-bottom: 0px; */
+    }
+}
+
+@media(max-width: 540px) {
+    #nav {
+        margin-left: 12%;
+        margin-top: 8%;
+        /* background-color: yellow; */
+    }
+    #division {
+        background: #242a2a;
+        height: 384px;
+        display: block;
+    }
+}
+
+@media(max-width: 510px) {
+    #nav {
+        margin-left: 4%;
+        margin-top: 8%;
+        /* background-color: yellow; */
+    }
+    #division {
+        background: #242a2a;
+        height: 392px;
+        display: block;
+    }
+}
+
+@media(max-width: 472px) {
+    #nav {
+        margin-left: 13%;
+        margin-top: 8%;
+        /* background-color: yellow; */
+    }
+    #division {
+        background: #242a2a;
+        height: 392px;
+        display: block;
+    }
+    #flecha {
+        padding-left: 42%;
+    }
+    #botones a {
+        margin-left: 62px;
+        margin-right: 62px;
+    }
+    .txtOne {
+        font-size: 96%;
+        /* padding-bottom: 0px; */
+    }
+    .txtTwo {
+        font-size: 366%;
+        /* padding-bottom: 0px; */
+    }
+    .txtThree {
+        font-size: 159%;
+        /* padding-bottom: 0px; */
+    }
+    .txtfour {
+        font-size: 123%;
+        /* padding-bottom: 0px; */
+    }
+}
+
+@media(max-width: 428px) {
+    #nav {
+        margin-left: 7%;
+        margin-top: 8%;
+        /* background-color: yellow; */
+    }
+}
+
+@media(max-width: 382px) {
+    .logo {
+        width: 67px;
+    }
+    #nav {
+        margin-left: 13%;
+        margin-top: 8%;
+        /* background-color: yellow; */
+    }
+    #division {
+        background: #242a2a;
+        height: 392px;
+        display: block;
+    }
+    #flecha {
+        padding-left: 42%;
+    }
+    #botones a {
+        margin-left: -10%;
+        margin-right: -10%;
+        /* transition: all; */
+    }
+    .txtOne {
+        font-size: 96%;
+        /* padding-bottom: 0px; */
+    }
+    .txtTwo {
+        font-size: 276%;
+        /* padding-bottom: 0px; */
+    }
+    .txtThree {
+        font-size: 159%;
+        /* padding-bottom: 0px; */
+    }
+    .txtfour {
+        font-size: 123%;
+        /* padding-bottom: 0px; */
+    }
+}
+
+@media(max-width: 362px) {
+    #nav {
+        margin-left: 12%;
+        margin-top: 8%;
+        /* background-color: yellow; */
+    }
+    #division {
+        background: #242a2a;
+        height: 424px;
+        display: block;
+    }
+    #flecha {
+        padding-left: 42%;
+    }
+    #botones a {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .txtOne {
+        font-size: 96%;
+        /* padding-bottom: 0px; */
+    }
+    .txtTwo {
+        font-size: 276%;
+        /* padding-bottom: 0px; */
+    }
+    .txtThree {
+        font-size: 159%;
+        /* padding-bottom: 0px; */
+    }
+    .txtfour {
+        font-size: 123%;
+        /* padding-bottom: 0px; */
+    }
+}
+
+@media(max-width: 290px) {
+    #nav {
+        margin-left: 8%;
+        margin-top: 5%;
+        /* background-color: yellow; */
+    }
+    #division {
+        background: #242a2a;
+        height: 424px;
+        display: block;
+    }
+    #flecha {
+        padding-left: 38%;
+    }
+    #botones a {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .txtOne {
+        font-size: 85%;
+        /* padding-bottom: 0px; */
+    }
+    .txtTwo {
+        font-size: 244%;
+        /* padding-bottom: 0px; */
+    }
+    .txtThree {
+        font-size: 139%;
+        /* padding-bottom: 0px; */
+    }
+    .txtfour {
+        font-size: 106%;
+        /* padding-bottom: 0px; */
+    }
+}
+
+
+/* COMPATIBILIDAD CON TELEFONOS */
+
+
+/* IPAD */
+
+@media(max-Height: 1024px) and (max-Width: 768px) {
+    #nav {
+        margin-left: 12%;
+        margin-top: 11%;
+        /* background-color: yellow; */
+    }
+    #division {
+        background: #242a2a;
+        height: 577px;
+        display: block;
+    }
+}
+
+
+/* Iphone plus */
+
+@media(max-Height: 736px) and (max-width: 414px) {
+    #nav {
+        margin-left: 7%;
+        margin-top: 8%;
+        /* background-color: yellow; */
+    }
+    #division {
+        background: #242a2a;
+        height: 456px !important;
+        display: block;
+    }
+}
+
+
+/* Android */
+
+@media(max-Height: 740px) and (max-width: 362px) {
+    #nav {
+        margin-left: 12%;
+        margin-top: 8%;
+        /* background-color: yellow; */
+    }
+    #division {
+        background: #242a2a;
+        height: 456px !important;
+        display: block;
+    }
+}
