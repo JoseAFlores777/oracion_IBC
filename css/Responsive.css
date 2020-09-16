@@ -1,46 +1,320 @@
-@media(max-width: 1299px) {
-    #nav {
-        position: absolute;
-        z-index: 2;
-        margin-left: 3%;
-        margin-top: 4%;
-        /* background-color: yellow; */
+    @media(max-width: 1299px) {
+        #nav {
+            position: absolute;
+            z-index: 2;
+            margin-left: 3%;
+            margin-top: 4%;
+            /* background-color: yellow; */
+        }
     }
-}
-
-@media(max-width: 1269px) {
-    #nav {
-        position: absolute;
-        z-index: 2;
-        margin-left: 3%;
-        margin-top: 3%;
-        /* background-color: yellow; */
+    
+    @media(max-width: 1269px) {
+        #nav {
+            position: absolute;
+            z-index: 2;
+            margin-left: 3%;
+            margin-top: 3%;
+            /* background-color: yellow; */
+        }
+        .Redes {
+            font-size: 38px;
+            /* margin: 8px; */
+            /* padding: 18px; */
+            /* text-align: center; */
+            margin-top: 0%;
+        }
     }
-    .Redes {
-        font-size: 38px;
-        /* margin: 8px; */
-        /* padding: 18px; */
-        /* text-align: center; */
-        margin-top: 0%;
+    
+    @media(max-width: 1207px) {
+        #nav {
+            position: absolute;
+            z-index: 2;
+            margin-left: 1%;
+            margin-top: 1%;
+            /* background-color: yellow; */
+        }
     }
-}
-
-@media(max-width: 1207px) {
-    #nav {
-        position: absolute;
-        ´ z-index: 2;
-        margin-left: 1%;
-        margin-top: 1%;
-        /* background-color: yellow; */
+    
+    @media(max-width: 1145px) {
+        #nav {
+            position: absolute;
+            z-index: 2;
+            margin-left: 1%;
+            margin-top: 1%;
+            /* background-color: yellow; */
+        }
     }
-}
-
-@media(max-width: 1145px) {
-    #nav {
-        position: absolute;
-        z-index: 2;
-        margin-left: 1%;
-        margin-top: 1%;
-        /* background-color: yellow; */
+    
+    @media(max-width: 1134px) {
+        #nav {
+            margin-left: 4%;
+            margin-top: 11%;
+            /* background-color: yellow; */
+        }
+        .txtOne {
+            font-size: 40px;
+            /* padding-bottom: 0px; */
+        }
+        .txtTwo {
+            font-weight: bold;
+            font-size: 95px;
+            font-style: inherit;
+        }
+        .txtThree {
+            font-weight: bold;
+            font-size: 55px;
+        }
+        #header {
+            height: 76px;
+        }
+        #division {
+            background: #242a2a;
+            height: 168px;
+            display: block;
+        }
+        #flecha {
+            padding-left: 44%;
+        }
     }
-}
+    
+    @media(max-width: 1090px) {
+        #division {
+            background: #242a2a;
+            height: 168px;
+            display: block;
+        }
+        #flecha {
+            padding-left: 44%;
+        }
+    }
+    
+    @media(max-width: 912px) {
+        #division {
+            background: #242a2a;
+            height: 320px;
+            display: block;
+        }
+        #flecha {
+            padding-left: 44%;
+        }
+    }
+    
+    @media(max-width: 706px) {
+        #nav {
+            margin-left: 9%;
+            margin-top: 6%;
+            /* background-color: yellow; */
+        }
+        #division {
+            background: #242a2a;
+            height: 320px;
+            display: block;
+        }
+        #flecha {
+            padding-left: 44%;
+        }
+    }
+    
+    @media(max-width: 636px) {
+        #nav {
+            margin-left: 5%;
+            margin-top: 4%;
+            /* background-color: yellow; */
+        }
+        #division {
+            background: #242a2a;
+            height: 445px;
+            display: block;
+        }
+        #flecha {
+            padding-left: 44%;
+        }
+        #botones a {
+            display: block;
+            margin: 24px;
+            margin-left: 95px;
+            margin-right: 95px;
+            margin-top: -3px;
+        }
+    }
+    
+    @media(max-width: 610px) {
+        #nav {
+            margin-left: 12%;
+            margin-top: 8%;
+            /* background-color: yellow; */
+        }
+        #division {
+            background: #242a2a;
+            height: 357px;
+            display: block;
+        }
+        #flecha {
+            padding-left: 44%;
+        }
+        #botones a {
+            display: block;
+            margin: 24px;
+            margin-left: 95px;
+            margin-right: 95px;
+            margin-top: -3px;
+        }
+        .txtOne {
+            font-size: 123%;
+            /* padding-bottom: 0px; */
+        }
+        .txtTwo {
+            font-size: 462%;
+            /* padding-bottom: 0px; */
+        }
+        .txtThree {
+            font-size: 175%;
+            /* padding-bottom: 0px; */
+        }
+        .txtfour {
+            font-size: 123%;
+            /* padding-bottom: 0px; */
+        }
+    }
+    
+    @media(max-width: 524px) {
+        #nav {
+            margin-left: 12%;
+            margin-top: 8%;
+            /* background-color: yellow; */
+        }
+        #division {
+            background: #242a2a;
+            height: 384px;
+            display: block;
+        }
+    }
+    
+    @media(max-width: 486px) {
+        #nav {
+            margin-left: 4%;
+            margin-top: 8%;
+            /* background-color: yellow; */
+        }
+        #division {
+            background: #242a2a;
+            height: 392px;
+            display: block;
+        }
+    }
+    
+    @media(max-width: 472px) {
+        #nav {
+            margin-left: 13%;
+            margin-top: 8%;
+            /* background-color: yellow; */
+        }
+        #division {
+            background: #242a2a;
+            height: 392px;
+            display: block;
+        }
+        #flecha {
+            padding-left: 42%;
+        }
+        #botones a {
+            margin-left: 62px;
+            margin-right: 62px;
+        }
+        .txtOne {
+            font-size: 96%;
+            /* padding-bottom: 0px; */
+        }
+        .txtTwo {
+            font-size: 366%;
+            /* padding-bottom: 0px; */
+        }
+        .txtThree {
+            font-size: 159%;
+            /* padding-bottom: 0px; */
+        }
+        .txtfour {
+            font-size: 123%;
+            /* padding-bottom: 0px; */
+        }
+    }
+    
+    @media(max-width: 422px) {
+        #nav {
+            margin-left: 7%;
+            margin-top: 8%;
+            /* background-color: yellow; */
+        }
+    }
+    
+    @media(max-width: 382px) {
+        #nav {
+            margin-left: 13%;
+            margin-top: 8%;
+            /* background-color: yellow; */
+        }
+        #division {
+            background: #242a2a;
+            height: 392px;
+            display: block;
+        }
+        #flecha {
+            padding-left: 42%;
+        }
+        #botones a {
+            margin-left: -10%;
+            margin-right: -10%;
+        }
+        .txtOne {
+            font-size: 96%;
+            /* padding-bottom: 0px; */
+        }
+        .txtTwo {
+            font-size: 276%;
+            /* padding-bottom: 0px; */
+        }
+        .txtThree {
+            font-size: 159%;
+            /* padding-bottom: 0px; */
+        }
+        .txtfour {
+            font-size: 123%;
+            /* padding-bottom: 0px; */
+        }
+    }
+    
+    @media(max-width: 312px) {
+        #nav {
+            margin-left: 13%;
+            margin-top: 8%;
+            /* background-color: yellow; */
+        }
+        #division {
+            background: #242a2a;
+            height: 392px;
+            display: block;
+        }
+        #flecha {
+            padding-left: 42%;
+        }
+        #botones a {
+            margin-left: -10%;
+            margin-right: -10%;
+        }
+        .txtOne {
+            font-size: 96%;
+            /* padding-bottom: 0px; */
+        }
+        .txtTwo {
+            font-size: 276%;
+            /* padding-bottom: 0px; */
+        }
+        .txtThree {
+            font-size: 159%;
+            /* padding-bottom: 0px; */
+        }
+        .txtfour {
+            font-size: 123%;
+            /* padding-bottom: 0px; */
+        }
+    }
